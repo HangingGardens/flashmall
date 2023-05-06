@@ -1,1 +1,0 @@
-import{u as a,H as e}from"./index-27cd35bf.js";const u=()=>e("GET","/category/index",{type:1}),o=()=>e("GET","/category/list",{type:1}),n=s=>{const{accountStore:r}=a(),t=s||r.sign.address;return e("GET","/subclass/list/",{address:t})},y=s=>e("POST","/subclass/save",s),d=s=>e("POST","/subclass/remove?id="+s,{id:s});export{y as a,d as b,u as c,o as d,n as q};

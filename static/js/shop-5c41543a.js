@@ -1,1 +1,0 @@
-import{H as t,u as s}from"./index-27cd35bf.js";const a=e=>{const{accountStore:r}=s(),o=e||r.sign.address;return t("GET","/store/getStoreInfo?address="+o,"")},u=e=>t("GET","/store/getDetail?id="+e,""),d=e=>t("POST","/store/save",e);export{a,d as b,u as q};

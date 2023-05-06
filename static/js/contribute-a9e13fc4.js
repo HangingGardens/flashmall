@@ -1,1 +1,0 @@
-import{L as r,H as t}from"./index-27cd35bf.js";r().getCurrentAccount();const n=()=>t("GET","/points/getUserContributes",""),o=e=>t("POST",`/points/contributeRelease?type=${e}`,{type:e});export{n as a,o as q};
